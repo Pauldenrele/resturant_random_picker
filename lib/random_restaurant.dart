@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 import 'main.dart';
 
-class restaurantState extends State<MyApp> {
+class RestaurantState extends State<MyApp> {
 
   List<String> restaurants = [
 

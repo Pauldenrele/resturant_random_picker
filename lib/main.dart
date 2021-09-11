@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:resturant_random_picker/random_restaurant.dart';
+import 'package:resturant_random_picker/tip_calculator.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,6 +9,6 @@ void main() {
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return restaurantState();
+    return TipCalcState();
   }
 }
