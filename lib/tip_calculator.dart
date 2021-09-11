@@ -65,10 +65,10 @@ class TipCalcState extends State<MyApp> {
     final selectedIndex = _selection.indexWhere((element) => element);
     final tipPercentage = [0.1, 0.15, 0.20][selectedIndex];
 
-    final totaltip = (totalAmount * tipPercentage).toStringAsFixed(2);
+    final totalTip = (totalAmount * tipPercentage).toStringAsFixed(2);
 
     setState(() {
-      tip = "\$$totaltip";
+      tip = "\$$totalTip";
     });
   }
 }
