@@ -1,4 +1,4 @@
-# resturant_random_picker
+# 30 days of flutter
 
 A new Flutter project.
 
